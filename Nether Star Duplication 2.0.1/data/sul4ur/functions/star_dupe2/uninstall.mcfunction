@@ -1,0 +1,18 @@
+scoreboard players set #global star_dupe2.pack_state 0
+
+scoreboard objectives remove star_dupe2.check.check_slot
+scoreboard objectives remove star_dupe2.check.check_slot_count
+scoreboard objectives remove star_dupe2.check.check_slot1_count
+scoreboard objectives remove star_dupe2.check.check_slot2_count
+scoreboard objectives remove star_dupe2.check.check_star_count
+scoreboard objectives remove star_dupe2.trigger.info
+scoreboard objectives remove star_dupe2.config.can_dupe.wither_skull
+scoreboard objectives remove star_dupe2.config.can_dupe.dragon_egg
+scoreboard objectives remove star_dupe2.config.can_dupe.shulker_box
+scoreboard objectives remove star_dupe2.config.can_dupe.bundle
+scoreboard objectives remove star_dupe2.config.stars_to_consume
+scoreboard objectives remove star_dupe2.config.max_count_for_dupe
+scoreboard objectives remove star_dupe2.config.setup_difficulty
+
+tellraw @s [{"text": "\nTo finish Uninstalling, you can use ","color": "white"},{"text": "[/datapack disable <filename>]","clickEvent": {"action": "suggest_command","value": "/datapack disable \""},"color": "aqua"}]
+tellraw @s [{"text": "\nTo undo Uninstalling, you can use ","color": "white"},{"text": "[/function sul4ur:star_dupe2/reinstall]","clickEvent": {"action": "suggest_command","value": "/function sul4ur:star_dupe2/reinstall"},"color": "aqua"}]

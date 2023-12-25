@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_count",
+  "count": {
+    "type": "score",
+    "score": "star_dupe2.config.stars_to_consume",
+    "target": {
+      "type": "minecraft:fixed",
+      "name": "#config"
+    },
+    "scale": -1
+  },
+  "add": true
+}

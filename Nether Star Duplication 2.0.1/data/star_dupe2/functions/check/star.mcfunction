@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ hopper{Items:[{Slot:1b},{Slot:2b,id:"minecraft:nether_star"}]} run function star_dupe2:check/second_slot
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b},{Slot:2b,id:"minecraft:nether_star"}]} unless block ~ ~ ~ hopper{Items:[{Slot:1b}]} run function star_dupe2:check/first_slot

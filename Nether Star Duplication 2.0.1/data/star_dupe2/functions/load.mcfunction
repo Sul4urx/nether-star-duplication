@@ -1,0 +1,1 @@
+execute unless score #global star_dupe2.pack_state matches 0 run function star_dupe2:add_scores
