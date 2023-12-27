@@ -1,0 +1,1 @@
+tellraw @s [{"text": "Data pack is already uninstalled. If you want to complete uninstallation, use ","color": "red"},{"text": "[/datapack disable <filename>]","clickEvent": {"action": "suggest_command","value": "/datapack disable \""},"hoverEvent": {"action": "show_text", "contents": "Click to run command"},"color": "gold"}]

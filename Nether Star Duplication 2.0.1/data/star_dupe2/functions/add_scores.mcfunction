@@ -13,3 +13,4 @@ scoreboard objectives add star_dupe2.config.can_dupe.bundle dummy
 scoreboard objectives add star_dupe2.config.stars_to_consume dummy
 scoreboard objectives add star_dupe2.config.max_count_for_dupe dummy
 scoreboard objectives add star_dupe2.config.setup_difficulty dummy
+scoreboard objectives add star_dupe2.config.inform_player_on_load dummy
