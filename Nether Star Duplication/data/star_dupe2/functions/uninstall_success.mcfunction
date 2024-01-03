@@ -17,4 +17,4 @@ scoreboard objectives remove star_dupe2.config.setup_difficulty
 execute if score #global star_dupe2.pack_state matches 0 run tellraw @s [{"text": "\nSuccesfully uninstalled!","color": "green"}]
 execute if score #global star_dupe2.pack_state matches 0 run tellraw @s [{"text": "To finish Uninstalling, you can use ","color": "white"},{"text": "[/datapack disable <filename>]","clickEvent": {"action": "suggest_command","value": "/datapack disable \""},"hoverEvent": {"action": "show_text", "contents": "Click to run command"},"color": "gold"}]
 execute if score #global star_dupe2.pack_state matches 0 run tellraw @s [{"text": "To undo Uninstalling, you can use ","color": "white"},{"text": "[/function sul4ur:star_dupe2/reinstall]","clickEvent": {"action": "suggest_command","value": "/function sul4ur:star_dupe2/reinstall"},"hoverEvent": {"action": "show_text", "contents": "Click to run command"},"color": "gold"}]
-execute unless score #global star_dupe2.pack_state matches 0 run 
+execute unless score #global star_dupe2.pack_state matches 0 run tellraw @s [{"text": "This data pack is already uninstalled.","color":"red"}]
