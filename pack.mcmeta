@@ -1,7 +1,7 @@
 {
   "id": "star_dupe2",
   "pack": {
-    "description": "Made By Sul4ur || Allows duplication via nether stars, lightning and hoppers.",
+    "description": "Made By Sul4ur || Allows duplication via nether stars.",
     "pack_format": 18, 
     "supported_formats": [18, 26]
   }

@@ -13,4 +13,4 @@ execute if score #global star_dupe2.pack_state matches 1 unless score #config st
 
 execute if score #global star_dupe2.pack_state matches 1 run tellraw @s [{"text": "- ","color": "white"},{"text": "[Click to refresh]","color": "gold","clickEvent": {"action": "run_command","value": "/execute as @s at @s run function sul4ur:star_dupe2/config"}},"\n"]
 #execute if score #global star_dupe2.pack_state matches 1 run tellraw @s {"text": "----------------------------------------------\n","color": "aqua"}
-execute unless score #global star_dupe2.pack_state matches 1 run tellraw @s [{"text": "\nThere is nothing here :)\n","color": "red"}]
+execute unless score #global star_dupe2.pack_state matches 1 run tellraw @s [{"text": "Data pack is currently uninstalled.\n","color": "red"}]
