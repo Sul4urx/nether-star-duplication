@@ -1,3 +1,0 @@
-$scoreboard players set #config star_dupe2.config.can_dupe.wither_skull $(value)
-execute if score #config star_dupe2.config.can_dupe.wither_skull matches 1 run tellraw @s [{"text": "<","color": "gray"},{"text": "Nether Star Duplication","color": "light_purple"},{"text": "> ","color": "gray"},{"text": "You can now duplicate wither skulls!","color": "green"}]
-execute if score #config star_dupe2.config.can_dupe.wither_skull matches 0 run tellraw @s [{"text": "<","color": "gray"},{"text": "Nether Star Duplication","color": "light_purple"},{"text": "> ","color": "gray"},{"text": "You can no longer duplicate wither skulls.","color": "yellow"}]

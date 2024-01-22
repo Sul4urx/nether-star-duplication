@@ -1,2 +1,0 @@
-execute if score #config star_dupe2.config.setup_difficulty matches 1 run function star_dupe2:check/dupe_setup/difficulty_1
-execute if score #config star_dupe2.config.setup_difficulty matches 2 run function star_dupe2:check/dupe_setup/difficulty_2_1

@@ -1,3 +1,0 @@
-$scoreboard players set #config star_dupe2.config.can_dupe.dragon_egg $(value)
-execute if score #config star_dupe2.config.can_dupe.dragon_egg matches 1 run tellraw @s [{"text": "<","color": "gray"},{"text": "Nether Star Duplication","color": "light_purple"},{"text": "> ","color": "gray"},{"text": "You can now duplicate dragon eggs!","color": "green"}]
-execute if score #config star_dupe2.config.can_dupe.dragon_egg matches 0 run tellraw @s [{"text": "<","color": "gray"},{"text": "Nether Star Duplication","color": "light_purple"},{"text": "> ","color": "gray"},{"text": "You can no longer duplicate dragon eggs.","color": "yellow"}]

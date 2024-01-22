@@ -1,3 +1,0 @@
-$scoreboard players set #config star_dupe2.config.can_dupe.shulker_box $(value)
-execute if score #config star_dupe2.config.can_dupe.shulker_box matches 1 run tellraw @s [{"text": "<","color": "gray"},{"text": "Nether Star Duplication","color": "light_purple"},{"text": "> ","color": "gray"},{"text": "You can now duplicate shulker boxes!","color": "green"}]
-execute if score #config star_dupe2.config.can_dupe.shulker_box matches 0 run tellraw @s [{"text": "<","color": "gray"},{"text": "Nether Star Duplication","color": "light_purple"},{"text": "> ","color": "gray"},{"text": "You can no longer duplicate shulker boxes.","color": "yellow"}]

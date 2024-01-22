@@ -1,0 +1,10 @@
+{
+  "function": "set_count",
+  "count": {
+    "type": "score",
+    "score": "star_dupe2.check.amethysts_to_comsume",
+    "scale": -1,
+    "target": "this"
+  },
+  "add": true
+}

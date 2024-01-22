@@ -1,3 +1,0 @@
-$scoreboard players set #config star_dupe2.config.setup_difficulty $(value)
-execute if score #config star_dupe2.config.setup_difficulty matches 1 run tellraw @s [{"text": "<","color": "gray"},{"text": "Nether Star Duplication","color": "light_purple"},{"text": "> ","color": "gray"},{"text": "This data pack's difficulty is now set to Easy!","color": "green"}]
-execute if score #config star_dupe2.config.setup_difficulty matches 2 run tellraw @s [{"text": "<","color": "gray"},{"text": "Nether Star Duplication","color": "light_purple"},{"text": "> ","color": "gray"},{"text": "This data pack's difficulty is now set to Normal!","color": "yellow"}]

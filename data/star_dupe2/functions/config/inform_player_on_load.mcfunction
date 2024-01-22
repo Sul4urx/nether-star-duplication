@@ -1,3 +1,0 @@
-$scoreboard players set #config star_dupe2.config.inform_player_on_load $(value)
-execute if score #config star_dupe2.config.inform_player_on_load matches 1 run tellraw @s [{"text": "<","color": "gray"},{"text": "Nether Star Duplication","color": "light_purple"},{"text": "> ","color": "gray"},{"text": "The information of this data pack will now be delivered to new players!","color": "green"}]
-execute if score #config star_dupe2.config.inform_player_on_load matches 0 run tellraw @s [{"text": "<","color": "gray"},{"text": "Nether Star Duplication","color": "light_purple"},{"text": "> ","color": "gray"},{"text": "The information of this data pack will no longer be delivered to new players.","color": "yellow"}]
